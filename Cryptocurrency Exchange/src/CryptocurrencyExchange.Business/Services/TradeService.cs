@@ -5,7 +5,11 @@ using System.Text;
 
 namespace CryptocurrencyExchange.Business.Services
 {
-    public class CoinService : ICoinService
+    public class TradeService : ITradeService
     {
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

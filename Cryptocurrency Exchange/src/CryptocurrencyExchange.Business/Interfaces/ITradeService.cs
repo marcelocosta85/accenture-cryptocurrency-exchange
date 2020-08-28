@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CryptocurrencyExchange.Business.Interfaces
 {
-    public interface ICoinService : IDisposable
+    public interface ITradeService : IDisposable
     {
     }
 }

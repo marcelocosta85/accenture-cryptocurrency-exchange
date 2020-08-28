@@ -37,7 +37,7 @@ namespace CryptocurrencyExchange.App
             services.AddScoped<CryptocurrencyDbContext>();
             services.AddScoped<ICoinRepository, CoinRepository>();
             services.AddScoped<INotificador, Notificador>();
-            services.AddScoped<ICoinService, CoinService>();
+            services.AddScoped<ITradeService, TradeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
